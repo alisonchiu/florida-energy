@@ -47,7 +47,9 @@ The website is functional and does as intended --- inform inteerested users of t
 Additionally, the FESC's informational brochure is unavailable and outdated information (an energy summit from 2017) is still present. The site's copyright has also not been updated since 2015.
 
 ###E. Ease of Use
-A lot of information is presented to users, which can be both helpful and detrimental. Eight links are included in the horizontal blue navigation bar, and 15 links in the green one for a total of 23. This may be overwhelming for first time visitors as the links may be too specific. The site map has a 22 categories, wtih some redundancies. For example, the News Archive and FESC User Facilities (FL-CAN) are listed twice.
+A lot of information is presented to users, which can be both helpful and detrimental. Eight links are included in the horizontal blue navigation bar, and 15 links in the green one for a total of 23. This may be overwhelming for first time visitors as the links may be too specific. The site map also has a 22 categories, wtih some redundancies. For example, the News Archive and FESC User Facilities (FL-CAN) are listed twice.
+
+The newsletter signup is also easy to miss as it only appears on the homepage. As a result, the FESC may be missing the opportunity to connect with more interested users because it is not very noticeable.
 
 ##3. Device Support Necessary
 
