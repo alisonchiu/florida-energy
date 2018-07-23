@@ -35,3 +35,30 @@ Technically Lora is optimised for screen appearance, and works equally well in p
 | Footer | Links the all 12 schools, quick links, contact information and newsletter signup form. | All |
 
 ### Inspiration
+#### IBM Research
+The website is clean and inviting and doesn't immediately overwhelm visitors with information. The social media links are displayed in a clever fashion --- visible, but also not within the direct line of sight. 
+
+![ibm research homepage](https://github.com/alisonchiu/florida-energy/blob/master/docs/screenshots/%20ibm.png?raw=true)
+
+[View site](http://research.ibm.com/)
+
+#### Berkeley Transportation Sustainability Research Center
+As a university research center, the content must be understandable by a variety of different visitors. While the links in the navigation are minimal, it does have a nice quick form to subscribe to their newsletter.
+
+![trsc homepage](https://github.com/alisonchiu/florida-energy/blob/master/docs/screenshots/tsrc.png?raw=true)
+
+[View Site](https://tsrc.berkeley.edu/home)
+
+#### NORC at the University of Chicago
+In the main photo, there is a clear callout on the latest information. The top right also features social media links and how to contact them. The links in the navigation are also informative and the overall use of color is appealing. 
+
+![norc homepage](https://github.com/alisonchiu/florida-energy/blob/master/docs/screenshots/norc.png?raw=true)
+
+[View Site](http://www.norc.org/Pages/default.aspx)
+
+#### Consortium for Global Education 
+While the CGE doesn't have the best design, it has easy links targeting specific types of visitors (members, faculty, students and partners). There is also a twitter feed which can help show that they are active and engaged with their community.
+
+![cge homepage](https://github.com/alisonchiu/florida-energy/blob/master/docs/screenshots/cge.png?raw=true)
+
+[View Site](http://www.cgedu.org/)
