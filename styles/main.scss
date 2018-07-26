@@ -1,0 +1,58 @@
+// globals
+@import 'globals/typography';
+@import 'globals/color';
+
+// components
+@import 'components/navigation';
+@import 'components/footer';
+
+body {
+	color: $body-color;
+	font: $base-font;
+}
+
+h1, h2 {
+	font: $title-font;
+	color: $primary-dark;
+}
+
+h3, h4, h5, h6 {
+	font: $subtitle-font;
+	color: $primary-dark;
+}
+
+a {
+	text-decoration: none;
+	color: $secondary-dark;
+
+/*  &:visited{
+	color: $secondary;
+  }
+*/
+
+  &:hover, &:focus, &:active {
+    font-weight: bold;
+  }
+}
+
+.navbar, footer {
+	padding: 0rem 2rem 0rem 2rem;
+}
+
+.logo {
+	font: $base-font;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: $body-color;
+}
+
+.content {
+	max-width: 85%;
+	margin: auto;
+	padding: 2rem 0rem 2rem 0rem;
+}
+
+.jumbotron {
+	max-width: 55%;
+	font-size: 2rem;
+}

@@ -1,0 +1,32 @@
+@import 'globals/color';
+@import 'globals/typography';
+
+@mixin liststyle {
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0; 
+	}
+
+	li a {
+		color: $body-color;
+		padding: .5rem;
+		display: block;
+		/*text-align: center;*/
+	}
+
+	font: $subtitle-font;
+}
+
+footer {
+	@include liststyle;
+}
+
+nav, .social {
+	li {
+		display: inline-block;
+	}
+
+	@include liststyle;
+}
+

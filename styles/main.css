@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+footer {
+  font: 0.9rem "Source Sans Pro", sans-serif; }
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  footer li a {
+    color: #353434;
+    padding: .5rem;
+    display: block;
+    /*text-align: center;*/ }
+
+nav, .social {
+  font: 0.9rem "Source Sans Pro", sans-serif; }
+  nav li, .social li {
+    display: inline-block; }
+  nav ul, .social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  nav li a, .social li a {
+    color: #353434;
+    padding: .5rem;
+    display: block;
+    /*text-align: center;*/ }
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.box1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+.box2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+.box3 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+body {
+  color: #353434;
+  font: 1.1rem "Source Sans Pro", sans-serif; }
+
+h1, h2 {
+  font: bold 1.2rem "Lora", serif;
+  color: #9fae22; }
+
+h3, h4, h5, h6 {
+  font: 0.9rem "Source Sans Pro", sans-serif;
+  color: #9fae22; }
+
+a {
+  text-decoration: none;
+  color: #b1bfca;
+  /*  &:visited{
+  	color: $secondary;
+    }
+  */ }
+  a:hover, a:focus, a:active {
+    font-weight: bold; }
+
+.navbar, footer {
+  padding: 0rem 2rem 0rem 2rem; }
+
+.logo {
+  font: 1.1rem "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #353434; }
+
+.content {
+  max-width: 85%;
+  margin: auto;
+  padding: 2rem 0rem 2rem 0rem; }
+
+.jumbotron {
+  max-width: 55%;
+  font-size: 2rem; }
+
+/*# sourceMappingURL=main.css.map */
