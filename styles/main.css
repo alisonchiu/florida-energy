@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lora");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 @import url("https://fonts.googleapis.com/css?family=Lora");
+.callout {
+  font: bold 1.2rem "Lora", serif; }
+
+.callout {
+  font: bold 1.2rem "Lora", serif; }
+
 footer {
   font: 0.9rem "Source Sans Pro", sans-serif; }
   footer ul {
@@ -50,7 +56,8 @@ nav, .social {
 
 body {
   color: #353434;
-  font: 1.1rem "Source Sans Pro", sans-serif; }
+  font: 1.1rem "Source Sans Pro", sans-serif;
+  height: 100%; }
 
 h1, h2 {
   font: bold 1.2rem "Lora", serif;
@@ -79,13 +86,37 @@ a {
   font-weight: 700;
   color: #353434; }
 
+/* The hero image */
+.hero-image {
+  /* The image used */
+  background-image: url("../imgs/american-public-power-association-419672-unsplash.jpg");
+  /* Set a specific height */
+  height: 15rem;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+/* Place text in the middle of the image */
+.hero-text {
+  /*text-align: center;*/
+  position: absolute;
+  top: 30%; }
+  .hero-text h1 {
+    padding-left: 7%;
+    max-width: 60%;
+    color: #ffffff;
+    font-size: 1.7rem; }
+  @media all and (max-width: 600px) {
+    .hero-text h1 {
+      padding: 2%;
+      max-width: 100%;
+      font-size: 1.7rem; } }
+
 .content {
   max-width: 85%;
   margin: auto;
   padding: 2rem 0rem 2rem 0rem; }
-
-.jumbotron {
-  max-width: 55%;
-  font-size: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
