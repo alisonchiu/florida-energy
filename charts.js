@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", onDOMLoad)
 
 function getRenewableData(){
   let request = new XMLHttpRequest()
-  let requestUrl = "http://api.eia.gov/series/?api_key=7e2d26726c1fde2b93ac09457d6c2f37&series_id=SEDS.REPRB.FL.A"
+  let requestUrl = "https://api.eia.gov/series/?api_key=7e2d26726c1fde2b93ac09457d6c2f37&series_id=SEDS.REPRB.FL.A"
   request.open('GET', requestUrl, true)
 
   request.onload = function(){
@@ -30,7 +30,7 @@ function getRenewableData(){
 
 function getElectricityData(){
   let request = new XMLHttpRequest()
-  let requestUrl = "http://api.eia.gov/series/?api_key=7e2d26726c1fde2b93ac09457d6c2f37&series_id=SEDS.ESTCB.FL.A"
+  let requestUrl = "https://api.eia.gov/series/?api_key=7e2d26726c1fde2b93ac09457d6c2f37&series_id=SEDS.ESTCB.FL.A"
   request.open('GET', requestUrl, true)
 
   request.onload = function(){
