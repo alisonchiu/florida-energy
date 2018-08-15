@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>FESC</title>
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  
   <link rel="stylesheet" type="text/css" href="styles/main.css">
 
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <script src="scripts/charts.js"></script>
-
+  <!-- development version, includes helpful console warnings -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="scripts/footer.js"></script>
 </head>
 <body>
 
@@ -45,26 +45,12 @@
       <input type="submit" value="Submit">
     </form>
 
-    <!-- <ul>
-      <div>
-        <li><a href="http://www.ufl.edu/">University of Florida</a></li>
-        <li><a href="http://www.fsu.edu/">Florida State University</a></li>
-        <li><a href="http://www.ucf.edu/">University of Central Florida</a></li>
-        <li><a href="http://www.usf.edu/">University of South Florida</a></li>
+  <section id="footerApp">
+    <div class="school" v-for="school in consortium">
+      <a v-bind:href="school.link">{{school.name}}</a>
       </div>
-      <div>
-        <li><a href="http://www.famu.edu/">Florida A&M Univeristy</a></li>
-        <li><a href="http://www.fau.edu/">Florida Atlantic Univeristy</a></li>
-        <li><a href="http://www.fgcu.edu/">Florida Gulf Coast Univeristy</a></li>
-        <li><a href="http://www.fiu.edu/">Florida International Univeristy</a></li>
-      </div>
-      <div>
-        <li><a href="http://www.ncf.edu/">New College of Florida</a></li>
-        <li><a href="http://www.unf.edu/">University of North Florida</a></li>
-        <li><a href="http://www.uwf.edu/">Univeristy of West Florida</a></li>
-        <li><a href="https://floridapolytechnic.org/">Florida Polytechnic University</a></li>
-      </div>
-    </ul> -->
+  </section>
+
   </div>
 
   <div class="box2">
